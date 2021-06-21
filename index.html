@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Library</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            Library
+        </a>
+        <div class="header-right">
+            <a class="active" href="index.html">Home</a>
+            <a href="">Contact</a>
+            <a href="">Gallery</a>
+            <a href="">GitHub</a>
+            <a href="">About</a>
+        </div>
+    </header>
+    <div class="sidebar">
+
+    </div>
+    <div class="main">
+    </div>
+    <div class="add-book-form">
+        <form>
+            <h1>Add a book</h1>
+
+            <p>
+                <label for="title">Book title</label>
+                <input type="text" required id="title">
+            </p>
+            <p>
+                <label for="author">Author</label>
+                <input type="text" required id="author">
+            </p>
+            <p>
+                <label for="pages">Pages</label>
+                <input type="number" required id="pages">
+            </p>
+            <p>
+                <label>
+                  <input type="checkbox" id="is-read" value="true">
+                  I finished reading this book
+                </label>
+              </p>
+            <button id="add-book-btn">Click to Add</button>
+        </form>
+    </div>
+    <button class="display-form-btn mdc-icon-button material-icons nav">
+        <span class="material-icons-outlined">add</span>
+    </button>
+
+    <footer>
+
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
